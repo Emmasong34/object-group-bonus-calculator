@@ -57,13 +57,13 @@ console.log( employees );
 
 for( i = 0; i < employees.length; i++ ){
   console.log( 'In for loop', employees[i] );
-  function loopEmployees( employees ){
-    let newObj = [];
-    newObj.name = employee[i].name
-    console.log( newObj.name );
+  function bonusCalculator( employees ){
+
+    console.log('in bonusCalc');
   }
 }
 
+bonusCalculator(employees);
 // * use each employee object as the input to the function described below.
 // * `console.log` the results of each iteration.
 
@@ -71,7 +71,8 @@ for( i = 0; i < employees.length; i++ ){
 
 // ## Function Logic
 
-// Write a declared function that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
+// Write a declared function that takes in one **Employee** object (as an argument to the function), 
+//and returns a new **object** with the following properties:
 
 // * The `name` property should contain the employee's name.
 // * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
